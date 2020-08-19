@@ -6,5 +6,3 @@ function repeat(str, count){
     }
     return result;
 }
-
-document.write(repeat('SALE', 10));
