@@ -1,9 +1,9 @@
 let birthYear;
-birthYear = 2001;
+birthYear = 2020;
 if(birthYear%400 == 0){
     document.write("うるう年です")
 }else{
-    if(birthYear%100 != 0 && birthYear&4 == 0){
+    if(birthYear%100 != 0 && birthYear%4 == 0){
         document.write("うるう年です")
     }
     else{
